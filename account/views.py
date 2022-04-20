@@ -72,3 +72,8 @@ def account_view(request):
         )
     context['account_form'] = form
     return render(request, 'account/account.html', context)
+
+#cart
+def cart_view(request):
+	context = {}
+	return render(request, 'snippets/cart.html', context)
