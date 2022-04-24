@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HomePage</title>
+  {% include 'snippets/nvbar.html' %}
+</head>
+
+<body>
+
+{% block content %}
+
+{% endblock content %}
+
+<!-- Header -->
+{% include 'snippets/header.html' %}
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About</h1>
+      <h5 class="w3-padding-32">Medi-Cal founded to provide easier service to patients. Patients will be able to receive remote medical care and order medications to the home in order to save time and maintain health.</h5>
+      <p class="w3-text-grey"></p>
+    </div>
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Want to know more?</h1>
+      <h5 class="w3-padding-32">You can access our knowledge sites at the top of the site.</h5>
+
+      <p class="w3-text-grey">For the list of medicines, please enter the TAB of medicines in order to know things about them.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+{% include 'snippets/footer.html' %}
+</body>
+</html>
