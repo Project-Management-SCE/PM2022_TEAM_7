@@ -27,6 +27,11 @@ pipeline {
             }
         }
         stage('Tests'){
+            when{
+                expression{
+                    BRANCH_NAME =='master'
+                }
+            }
             agent{
                 docker{
                     image 'python:3.6'
