@@ -85,8 +85,13 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'project',
+        "CLIENT":{
+            'host':'mongodb+srv://admin:medical7@cluster0.g6nvd.mongodb.net/project?retryWrites=true&w=majority',
+            'username':'admin',
+            'password':'medical7',
+        }
     }
 }
 
