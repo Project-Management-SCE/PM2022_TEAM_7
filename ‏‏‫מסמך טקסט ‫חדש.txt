@@ -1,3 +1,0 @@
-2. open cmd
-3. Scripts\activate
-4. run server - python manage.py runserver
