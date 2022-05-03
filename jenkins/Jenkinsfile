@@ -1,29 +1,45 @@
-
 pipeline {
     agent none
-    stages {
-        stage('Build') {
-            agent {
-                docker {
-                    image 'python:2-alpine'
+    stages{
+        stage('Install requirements'){
+            agent{
+                docker{
+                    image 'python:3.6'
                 }
             }
-            steps {
-                sh 'python -m py_compile sources/add2vals.py sources/calc.py'
+            steps{
+                withEnv(["HOME=${env.WORKSPACE}"]){
+                    sh 'python -m pip install django==1.11'
+                }
             }
         }
-        stage('Test') {
-            agent {
-                docker {
-                    image 'qnib/pytest'
+        stage('Compile'){
+            agent{
+                docker{
+                    image 'python:3.6'
                 }
             }
-            steps {
-                sh 'py.test --verbose --junit-xml test-reports/results.xml sources/test_calc.py'
+            steps{
+                withEnv(["HOME=${env.WORKSPACE}"]){
+                    sh 'python -m py_compile manage.py'
+                    sh 'pip install django_jenkins'
+                }
             }
-            post {
-                always {
-                    junit 'test-reports/results.xml'
+        }
+        stage('Tests'){
+            when{
+                expression{
+                    BRANCH_NAME =='master'
+                }
+            }
+            agent{
+                docker{
+                    image 'python:3.6'
+                }
+            }
+            steps{
+                withEnv(["HOME=${env.WORKSPACE}"]){
+                    sh 'python manage.py test'
                 }
             }
         }
