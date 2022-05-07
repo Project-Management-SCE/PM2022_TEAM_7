@@ -1,12 +1,17 @@
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
+from django.conf.urls.static import static
+from django.conf import settings
 
 from personal.views import (
     home_screen_view,
     Sourcesofknowledge_view,
     customersatisfactionsurvey_view,
 )
+
+
+
 from account.views import (
     registration_view,
     logout_view,
@@ -14,6 +19,9 @@ from account.views import (
     account_view,
 )
 
+from drugs.views import(
+    drug_view
+)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_screen_view, name="home"),
@@ -23,7 +31,7 @@ urlpatterns = [
     path('account/', account_view, name="account"),
     path('Sourcesofknowledge/', Sourcesofknowledge_view, name="Sourcesofknowledge"),
     path('customersatisfactionsurvey/', customersatisfactionsurvey_view, name="customersatisfactionsurvey"),
-
+    path('drugs/',drug_view,name="drugs"),
     path('password_change/done/',
          auth_views.PasswordChangeDoneView.as_view(template_name='registration/password_change_done.html'),
          name='password_change_done'),

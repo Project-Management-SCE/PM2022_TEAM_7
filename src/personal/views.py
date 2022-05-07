@@ -16,3 +16,4 @@ def Sourcesofknowledge_view(request):
 def customersatisfactionsurvey_view(request):
     context = {}
     return render(request, "personal/customersatisfactionsurvey.html")
+
