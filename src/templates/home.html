@@ -46,14 +46,31 @@
     }
 
   </style>
-  {% include 'snippets/nvbar.html' %}
-
 </head>
 
 <body>
 
   <!-- Navbar -->
-  {% include 'snippets/header.html' %}
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <strong class="blue-text">Medi-Cal Pharmacy</strong>
+      </a>
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1"> 1 </span>
+              <i class="fas fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block"> Cart </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
   <!-- Navbar -->
 
 
@@ -61,8 +78,6 @@
   <!--Carousel Wrapper-->
   <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
 
-    <!--Indicators-->
-    <!--/.Indicators-->
 
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
@@ -77,11 +92,11 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong>Medical Pharmacy</strong>
+                <strong>Medi-Cal Pharmacy</strong>
               </h1>
 
               <p>
-                <strong>All the medicine for perfect health</strong>
+                <strong>All the medicine for longer life</strong>
               </p>
             </div>
             <!-- Content -->
@@ -94,13 +109,8 @@
       <!--/First slide-->
 
 
-
     </div>
     <!--/.Slides-->
-
-    <!--Controls-->
-
-    <!--/.Controls-->
 
   </div>
   <!--/.Carousel Wrapper-->
@@ -132,15 +142,11 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shirts</a>
+              <a class="nav-link" href="#">Prescription Needed</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sport wears</a>
+              <a class="nav-link" href="#">Non Prescription</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Outwears</a>
-            </li>
-
           </ul>
           <!-- Links -->
 
@@ -168,7 +174,7 @@
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top"
+                <img src="{{ item.imgurl }}" class="card-img-top"
                   alt="">
                 <a href="product/{{ item.slug }}">
                   <div class="mask rgba-white-slight"></div>

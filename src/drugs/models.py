@@ -21,6 +21,7 @@ class Item(models.Model):
     label=models.CharField(choices=LABEL_CHOICES,max_length=1)
     slug=models.SlugField()
     description=models.TextField()
+    imgurl=models.TextField(max_length=1000)
     def __str__(self):
         return self.title
     def get_absolute_url(self):
