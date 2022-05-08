@@ -1,0 +1,29 @@
+{% extends 'prescription.html' %}
+
+{% block content %}
+
+<h3>Create a New prescription</h3>
+	<br>
+	<form method="post" action="/prescription/" class="form-group">
+		{% csrf_token %}
+		<p style="font-size:30px; text-align: center;">Account <img class="mb-4" src="https://nevhc.org/wp-content/uploads/2020/05/Medi-Cal.png" alt="" width="72" height="57"></p>
+		<div class="form-floating">
+			<input type="text" name="Patient name" class="form-control" id="floatingInput" value={{account_form.initial.email}}>
+			 <label for="floatingInput">Patient name</label>
+		</div>
+		<div class="form-floating">
+			<input type="text" name="Drug name" class="form-control" id="inputDrug" value={{account_form.initial.username}}>
+			<label for="floatingInput">Drug name</label>
+		</div>
+		<div class="form-floating">
+			<input type="text" name="How to take the medicine" class="form-control" id="inputUsername" value={{account_form.initial.username}}>
+			<label for="floatingInput">How to take the medicine</label>
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+			<button name="save" type="submit" class="btn btn-success">Create</button>
+			</div>
+			{{form.name}}
+		</div>
+	</form>
+{% endblock %}
