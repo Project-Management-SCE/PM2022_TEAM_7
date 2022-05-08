@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'personal',
     'account',
     'drugs',
+    'rest_framework',
+    'corsheaders',
     # Django apps:
     'django.contrib.admin',
     'django.contrib.auth',
@@ -48,7 +50,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+CORS_ORIGIN_ALLOW_ALL=True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -86,15 +91,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'project',
-        "CLIENT":{
-            'host':'mongodb+srv://admin:medical7@cluster0.g6nvd.mongodb.net/project?retryWrites=true&w=majority',
-            'username':'admin',
-            'password':'medical7',
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME':'glorbpyx',
+        'USER':'glorbpyx',
+        'PASSWORD':'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
+        'HOST':'tyke.db.elephantsql.com',
+        'PORT':'5432',
         }
     }
-}
 
 
 # Password validation
