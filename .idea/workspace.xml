@@ -20,21 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb99b8b-6f13-4cb9-adb0-b8869c92be5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/drugs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/drugs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/snippets/drugs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/migrations/0002_auto_20220508_2239.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/migrations/0003_auto_20220508_2241.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/account/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/account/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drugs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/drugs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drugs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/drugs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/drug_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/drug_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/HomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/drug_list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
