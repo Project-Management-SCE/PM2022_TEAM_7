@@ -13,6 +13,9 @@ from account.views import (
     login_view,
     account_view,
 )
+from doctors.views import(
+    prescription_view,
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,5 +40,6 @@ urlpatterns = [
     path('reset/done/',
          auth_views.PasswordResetCompleteView.as_view(template_name='registration/password_reset_complete.html'),
          name='password_reset_complete'),
+    path('prescription/', views.prescription, name="prescription"),
 
 ]
