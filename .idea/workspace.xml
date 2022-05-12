@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="update" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LiorDaichman &lt;73170540+liordaichman@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PM2022_TEAM_7" />
+  </component>
+  <component name="JupyterTrust" id="ebcd3091-7969-48e2-8623-a5b25805896e" />
+  <component name="ProjectId" id="1lgU7xiVpHPzzDfiF8fQqsNG7u2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gitproject" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Hospital_Management_System-master" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Hospital_Management_System-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="" />
+      <created>1608018065511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608018065511</updated>
+      <workItem from="1608018071373" duration="1030000" />
+      <workItem from="1608191642336" duration="1591000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1652358820883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652358820883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../Gitproject/PM2022_TEAM_7" />
+    </ignored-roots>
+    <MESSAGE value="abc" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="190" key="#Notifications" timestamp="1652359972391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="190" key="#Notifications/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652359972391" />
+    <state x="504" y="163" width="440" height="499" key="FileChooserDialogImpl" timestamp="1652365061430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="163" width="440" height="499" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652365061430" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1652358535441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652358535441" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1652360784254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652360784254" />
+    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652363702489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652363702489" />
+    <state x="1366" y="0" width="1025" height="716" maximized="true" key="dock-window-1" timestamp="1652353087952">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1366" y="0" width="1025" height="716" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353087952" />
+    <state x="1514" y="0" width="1025" height="716" key="dock-window-2" timestamp="1652353853707">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1514" y="0" width="1025" height="716" key="dock-window-2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353853707" />
+    <state x="1446" y="0" width="1025" height="716" key="dock-window-3" timestamp="1652353853707">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1446" y="0" width="1025" height="716" key="dock-window-3/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353853707" />
+    <state x="1366" y="0" width="1025" height="509" key="dock-window-4" timestamp="1652355565002">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1366" y="0" width="1025" height="509" key="dock-window-4/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652355565002" />
+    <state x="392" y="115" width="581" height="556" key="find.popup" timestamp="1652364928945">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="115" width="581" height="556" key="find.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652364928945" />
+  </component>
+</project>
