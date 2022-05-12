@@ -42,9 +42,21 @@ INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'user_profile.apps.UserProfileConfig',
     'appointment.apps.AppointmentConfig',
+<<<<<<< HEAD
 ]
 
 MIDDLEWARE = [
+=======
+    'drugs',
+    'rest_framework',
+    'corsheaders',
+]
+
+CORS_ORIGIN_ALLOW_ALL=True
+
+MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+>>>>>>> origin/sprint3
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -80,10 +92,21 @@ AUTH_USER_MODEL = 'account.User'
 
 DATABASES = {
     'default': {
+<<<<<<< HEAD
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+=======
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME':'glorbpyx',
+        'USER':'glorbpyx',
+        'PASSWORD':'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
+        'HOST':'tyke.db.elephantsql.com',
+        'PORT':'5432',
+        }
+    }
+>>>>>>> origin/sprint3
 
 
 # Password validation

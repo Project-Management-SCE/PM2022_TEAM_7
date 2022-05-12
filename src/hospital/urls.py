@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """hospital URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -13,6 +14,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+=======
+>>>>>>> origin/sprint3
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -23,5 +26,9 @@ urlpatterns = [
     path("", include('account.urls', namespace="account")),
     path("", include('user_profile.urls', namespace="user_profile")),
     path("", include('appointment.urls', namespace="appointment")),
+<<<<<<< HEAD
     # ... the rest of your URLconf goes here ...
+=======
+    path('drugs/', include('drugs.urls', namespace='drugs')),
+>>>>>>> origin/sprint3
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
