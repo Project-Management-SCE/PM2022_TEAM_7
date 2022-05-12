@@ -69,11 +69,7 @@ def AppointmentCreateView(request):
 
 @login_required(login_url='/login/')
 def rdashboard(request):
-<<<<<<< HEAD
     if request.method == "GET" and request.user.user_type == "D":
-=======
-    if request.method == "GET" and request.user.user_type == "R":
->>>>>>> origin/sprint3
         context = {
             "totalApp" : len(Appointment.objects.all()),
             "compApp" : len(Appointment.objects.filter(status="Completed")),
@@ -86,11 +82,7 @@ def rdashboard(request):
 
 @login_required(login_url='/login/')
 def hrdashboard(request):
-<<<<<<< HEAD
     if request.method == "GET" and request.user.user_type == "D":
-=======
-    if request.method == "GET" and request.user.user_type == "HR":
->>>>>>> origin/sprint3
         context = {
             "totalPat" : len(User.objects.filter(user_type="P")),
             "totalDoc" : len(User.objects.filter(user_type="D")),
@@ -102,11 +94,7 @@ def hrdashboard(request):
 
 @login_required(login_url='/login/')
 def hraccounting(request):
-<<<<<<< HEAD
     if request.method == "GET" and request.user.user_type == "D":
-=======
-    if request.method == "GET" and request.user.user_type == "HR":
->>>>>>> origin/sprint3
         context = {
             "payment_ind" : Payment.objects.filter(payment_type="I"),
             "payment_cons" : Payment.objects.filter(payment_type="C"),
