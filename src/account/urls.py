@@ -10,6 +10,12 @@ urlpatterns = [
     path("logout/", auth_views.LogoutView.as_view(template_name="account/logout.html"), name="logout"),
     path("register/", views.SignUp, name="signup"),
     path("", views.home, name="home"),
+<<<<<<< HEAD
+    path('Sourcesofknowledge/', views.Sourcesofknowledge, name="Sourcesofknowledge"),
+    path('customersatisfactionsurvey/', views.customersatisfactionsurvey, name="customersatisfactionsurvey"),
+
+=======
     path("aboutus/", views.aboutus, name="about-us"),
     path("contact/", views.contact, name="contact"),
+>>>>>>> origin/sprint3
 ]
