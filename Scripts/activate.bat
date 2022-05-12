@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\liord\Documents\Django python project\Siteproject"
+set "VIRTUAL_ENV=C:\Users\liord\Desktop\proj\Medical"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
