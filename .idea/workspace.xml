@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="update" />
+    <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,7 @@
         <option value="LiorDaichman &lt;73170540+liordaichman@users.noreply.github.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PM2022_TEAM_7" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="ebcd3091-7969-48e2-8623-a5b25805896e" />
   <component name="ProjectId" id="1lgU7xiVpHPzzDfiF8fQqsNG7u2" />
@@ -44,7 +48,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gitproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Medical" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -106,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -121,10 +126,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="190" key="#Notifications/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652359972391" />
-    <state x="504" y="163" width="440" height="499" key="FileChooserDialogImpl" timestamp="1652365061430">
+    <state x="604" y="139" width="440" height="499" key="FileChooserDialogImpl" timestamp="1653658252709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="504" y="163" width="440" height="499" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652365061430" />
+    <state x="604" y="139" width="440" height="499" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1653658252709" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1652358535441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

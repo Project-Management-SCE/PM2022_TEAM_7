@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+
 User = get_user_model()
+
 
 # Create your models here.
 class Appointment(models.Model):
@@ -27,10 +29,12 @@ class Prescription(models.Model):
     def __str__(self):
         return "Presciption Doc-{} Patient-{}".format(self.doctor, self.patient)
 
+
 PAYMENT_TYPES = [
-    ('I','Individual'),
-    ('C','Consulting')
+    ('I', 'Individual'),
+    ('C', 'Consulting')
 ]
+
 
 class Payment(models.Model):
     patient = models.ForeignKey(User, on_delete=models.CASCADE, related_name="patient_payments")
