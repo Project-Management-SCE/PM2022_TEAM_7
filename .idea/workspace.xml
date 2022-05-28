@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drugs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drugs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/drugs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drugs/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/product.html" afterDir="false" />
@@ -34,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -166,9 +170,9 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1366" y="0" width="1025" height="509" key="dock-window-4/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652355565002" />
-    <state x="260" y="119" width="581" height="556" key="find.popup" timestamp="1653673924316">
+    <state x="260" y="119" width="581" height="556" key="find.popup" timestamp="1653741127042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="260" y="119" width="581" height="556" key="find.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1653673924316" />
+    <state x="260" y="119" width="581" height="556" key="find.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1653741127042" />
   </component>
 </project>
