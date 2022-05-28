@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'drugs',
     'rest_framework',
     'corsheaders',
+    'crispy_forms',
 
 ]
 
