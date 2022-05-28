@@ -32,3 +32,6 @@ def SignUp(request):
     else:
         form = UserCreateForm()
     return render(request, 'account/signup.html', {'form': form})
+
+def map(request):
+    return render(request, 'account/map.html')
