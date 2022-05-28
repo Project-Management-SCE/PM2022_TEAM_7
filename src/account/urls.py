@@ -12,5 +12,6 @@ urlpatterns = [
     path("", views.home, name="home"),
     path('Sourcesofknowledge/', views.Sourcesofknowledge, name="Sourcesofknowledge"),
     path('customersatisfactionsurvey/', views.customersatisfactionsurvey, name="customersatisfactionsurvey"),
+    path('map/', views.map, name="map"),
 
 ]
