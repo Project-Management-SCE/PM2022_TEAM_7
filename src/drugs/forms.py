@@ -1,10 +1,15 @@
 from django import forms
 
+PAYMENT_CHOICES=(
+    ('S', 'Stripe'),
+    ('P', 'Paypal')
+)
+
 class CheckoutForm(forms.Form):
     street_address=forms.CharField()
-    apartment_address=forms.charField(required=False)
-    city_address=form.charField()
-    country_address = form.charField()
-    zip_address = form.charField()
-    save_info=forms.BooleanField(widget=forms.CheckboxInput())
-    payment_option=forms.BooleanField(widget=forms.RadioSelect())
+    apartment_address=forms.CharField(required=False)
+    city_address=forms.CharField()
+    country_address = forms.CharField()
+    zip_address = forms.CharField()
+    save_info=forms.BooleanField(required=False)
+    payment_option=forms.ChoiceField(widget=forms.RadioSelect(),choices=PAYMENT_CHOICES)
