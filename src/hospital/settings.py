@@ -94,7 +94,7 @@ DATABASES = {
         'HOST': 'tyke.db.elephantsql.com',
         'PORT': '5432',
         'TEST': {
-            'NAME': 'medical7_test',
+            'ENGINE': 'django.db.backends.sqlite3',
         },
     }
 }
