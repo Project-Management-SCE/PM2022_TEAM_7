@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'appointment.apps.AppointmentConfig',
     'drugs',
     'rest_framework',
-    'django_google_maps',
     'home',
     'timesheet',
 
