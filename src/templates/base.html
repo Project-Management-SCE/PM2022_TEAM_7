@@ -24,6 +24,7 @@
                         <li><a href="{% url 'appointment:doc-prescriptions' %}"class="btn btn-simple">Prescriptions</a></li>
                         <li><a href="{% url 'appointment:hr_accounting' %}"class="btn btn-simple">Accounting</a></li>
                         <li><a href="{% url 'appointment:r_dashboard' %}"class="btn btn-simple">Dashboard</a></li>
+                        <li><a href="{% url 'timesheet' %}"class="btn btn-simple">timesheet</a></li>
                         <li><a href="{% url 'account:logout' %}" class="btn btn-simple"><button class="btn btn-warning">Log Out</button></a></li>
                     {% endif %}
                     {% if user.is_patient %}
@@ -55,6 +56,7 @@
                         <li><a href="{% url 'appointment:hr_dashboard' %}"class="btn btn-simple">Dashboard</a></li>
                         <li><a href="{% url 'appointment:hr_accounting' %}"class="btn btn-simple">Accounting</a></li>
                         <li><a href="{% url 'appointment:r_dashboard' %}"class="btn btn-simple">Dashboard</a></li>
+                     <li><a href="{% url 'timesheet' %}"class="btn btn-simple">timesheet</a></li>
                         <li><a href="{% url 'account:logout' %}" class="btn btn-simple"><button class="btn btn-warning">Log Out</button></a></li>
                     {% endif %}
                     {% else %}
