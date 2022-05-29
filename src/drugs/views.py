@@ -3,7 +3,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView,View
 from django.shortcuts import redirect
-from .models import Item, Order, OrderItem
+from .models import Item, Order, OrderItem, BillingAddress
 from django.utils import timezone
 from .forms import CheckoutForm
 
@@ -23,9 +23,37 @@ class CheckoutView(View):
 
     def post(self,*args,**kwargs):
         form=CheckoutForm(self.request.POST or None)
-        if form.is_valid():
-            print("form valid")
+        try:
+            order=Order.objects.get(user=self.request.user, ordered=False)
+            if form.is_valid():
+                street_address = form.cleaned_data.get('street_address')
+                apartment_address = form.cleaned_data.get('apartment_address')
+                city_address = form.cleaned_data.get('city_address')
+                country_address = form.cleaned_data.get('country_address')
+                zip_address = form.cleaned_data.get('zip_address')
+                # save_info = form.cleaned_data.get('save_info')
+                payment_option = form.cleaned_data.get('payment_option')
+                billing_address = BillingAddress(
+                    user=self.request.user,
+                    street_address=street_address,
+                    apartment_address=apartment_address,
+                    country=country,
+                    zip=zip,
+                )
+                billing_address.save()
+                order.billing_address=billing_address
+                order.save()
+                return redirect('drugs:checkout')
+            messages.warning(self.request, "Failed Checkout")
             return redirect('drugs:checkout')
+        except ObjectDoesNotExist:
+            messages.error(self.request, "you don't have an active order")
+            return redirect("drugs:order-summary")
+
+
+class PaymentView(View):
+    def get(self, *args, **kwargs):
+        return render(self.request, "payment.html")
 
 class HomeView(ListView):
     model=Item
