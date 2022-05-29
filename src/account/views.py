@@ -5,14 +5,18 @@ from django.shortcuts import redirect, render
 from .forms import *
 from user_profile.models import UserProfile
 
+
 def home(request):
     return render(request, 'account/home.html')
+
 
 def customersatisfactionsurvey(request):
     return render(request, 'account/customersatisfactionsurvey.html')
 
+
 def Sourcesofknowledge(request):
     return render(request, 'account/Sourcesofknowledge.html')
+
 
 def SignUp(request):
     if request.method == 'POST':

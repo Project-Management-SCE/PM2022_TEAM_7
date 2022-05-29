@@ -14,8 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
-STATIC_DIR = os.path.join(BASE_DIR,'static')
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -27,7 +27,6 @@ SECRET_KEY = 'j-erj2ub*bp^$e!7o7fd33#01n-z43bs-ttpwfs6)vn-hofba7'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -42,21 +41,19 @@ INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'user_profile.apps.UserProfileConfig',
     'appointment.apps.AppointmentConfig',
-<<<<<<< HEAD
-]
-
-MIDDLEWARE = [
-=======
     'drugs',
     'rest_framework',
     'corsheaders',
+    'django_google_maps',
+    'home',
+    'timesheet',
+
 ]
 
-CORS_ORIGIN_ALLOW_ALL=True
+CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
->>>>>>> origin/sprint3
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -71,7 +68,7 @@ ROOT_URLCONF = 'hospital.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR,],
+        'DIRS': [TEMPLATE_DIR, ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -92,22 +89,14 @@ AUTH_USER_MODEL = 'account.User'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'glorbpyx',
+        'USER': 'glorbpyx',
+        'PASSWORD': 'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
+        'HOST': 'tyke.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
-=======
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'glorbpyx',
-        'USER':'glorbpyx',
-        'PASSWORD':'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
-        'HOST':'tyke.db.elephantsql.com',
-        'PORT':'5432',
-        }
-    }
->>>>>>> origin/sprint3
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -127,7 +116,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
@@ -146,5 +134,10 @@ LOGIN_REDIRECT_URL = "account:home"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+
+
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [STATIC_DIR,]
+STATIC_ROOT = os.path.join(BASE_DIR, '')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

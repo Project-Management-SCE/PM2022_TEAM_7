@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #!C:\Users\liord\Desktop\proj\Medical\Scripts\python.exe
-=======
-#!C:\Users\liord\Desktop\proj\Medical\Scripts\python.exe
->>>>>>> origin/sprint3
 """A simple converter from SVG to PDF.
 
 For further information please check the file README.txt!

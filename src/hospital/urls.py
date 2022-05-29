@@ -1,34 +1,24 @@
-<<<<<<< HEAD
-"""hospital URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.0/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-=======
->>>>>>> origin/sprint3
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+import home.views
+import timesheet.views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path("", include('account.urls', namespace="account")),
-    path("", include('user_profile.urls', namespace="user_profile")),
-    path("", include('appointment.urls', namespace="appointment")),
-<<<<<<< HEAD
-    # ... the rest of your URLconf goes here ...
-=======
-    path('drugs/', include('drugs.urls', namespace='drugs')),
->>>>>>> origin/sprint3
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+                  path('admin/', admin.site.urls),
+                  path("", include('account.urls', namespace="account")),
+                  path("", include('user_profile.urls', namespace="user_profile")),
+                  path("", include('appointment.urls', namespace="appointment")),
+                  path('drugs/', include('drugs.urls', namespace='drugs')),
+                  path('timesheet/', timesheet.views.timesheet, name='timesheet'),
+                  path('month/', timesheet.views.MonthView.as_view(), name='month'),
+                  path('year/', timesheet.views.YearView.as_view(), name='year'),
+                  path('timesheetday/edit/<int:timesheetday_id>/', timesheet.views.timesheetday,
+                       name='timesheetday_edit'),
+                  path('workingday/edit/<int:workingday_id>/', timesheet.views.workingday, name='workingday_edit'),
+                  path('paycheck/edit/<int:paycheck_id>/', timesheet.views.paycheck, name='paycheck_edit'),
+                  path('massive_edit/', timesheet.views.massive_edit, name='massive_edit'),
+              ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

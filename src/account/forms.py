@@ -5,7 +5,7 @@ from django import forms
 USER_CHOICES = [
     ('D', 'Doctor'),
     ('P', 'Patient'),
-    ('HR', 'HR'),
+    ('N', 'pharmacist'),
 ]
 
 class UserCreateForm(UserCreationForm):
