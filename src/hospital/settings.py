@@ -94,7 +94,8 @@ DATABASES = {
         'HOST': 'tyke.db.elephantsql.com',
         'PORT': '5432',
         'TEST': {
-            'ENGINE': 'django.db.backends.sqlite3',
+            'USER': 'glorbpyx',
+            'PASSWORD': 'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
         },
     }
 }
