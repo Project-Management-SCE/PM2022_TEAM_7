@@ -4,7 +4,7 @@ pipeline {
         stage('Install requirements'){
             agent{
                 docker{
-                    image 'python:3.6'
+                    image 'python:3.10.4'
                 }
             }
             steps{
@@ -16,7 +16,7 @@ pipeline {
         stage('Compile'){
             agent{
                 docker{
-                    image 'python:3.6'
+                    image 'python:3.10.4'
                 }
             }
             steps{
@@ -29,7 +29,7 @@ pipeline {
         stage('Tests'){            
             agent{
                 docker{
-                    image 'python:3.6'
+                    image 'python:3.10.4'
                 }
             }
             steps{
