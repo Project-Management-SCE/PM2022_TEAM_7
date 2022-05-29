@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="update" />
+    <list default="true" id="8337b522-95c4-4844-8f4d-6150cbd96e47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,14 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="LiorDaichman &lt;73170540+liordaichman@users.noreply.github.com&gt;" />
-      </list>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JupyterTrust" id="ebcd3091-7969-48e2-8623-a5b25805896e" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1lgU7xiVpHPzzDfiF8fQqsNG7u2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,11 +37,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Medical" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liord\Desktop\Medical\src\static\images" />
+      <recent name="C:\Users\liord\Desktop\proj\Medical\src\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Hospital_Management_System-master" type="Python.DjangoServer" factoryName="Django server">
@@ -92,14 +84,6 @@
       <workItem from="1608018071373" duration="1030000" />
       <workItem from="1608191642336" duration="1591000" />
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1652358820883</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652358820883</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,57 +99,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/../Gitproject/PM2022_TEAM_7" />
-    </ignored-roots>
-    <MESSAGE value="abc" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="431" y="190" key="#Notifications" timestamp="1652359972391">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="431" y="190" key="#Notifications/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652359972391" />
-    <state x="604" y="139" width="440" height="499" key="FileChooserDialogImpl" timestamp="1653658252709">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="604" y="139" width="440" height="499" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1653658252709" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1652358535441">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652358535441" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1652360784254">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652360784254" />
-    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652363702489">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652363702489" />
-    <state x="1366" y="0" width="1025" height="716" maximized="true" key="dock-window-1" timestamp="1652353087952">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1366" y="0" width="1025" height="716" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353087952" />
-    <state x="1514" y="0" width="1025" height="716" key="dock-window-2" timestamp="1652353853707">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1514" y="0" width="1025" height="716" key="dock-window-2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353853707" />
-    <state x="1446" y="0" width="1025" height="716" key="dock-window-3" timestamp="1652353853707">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1446" y="0" width="1025" height="716" key="dock-window-3/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652353853707" />
-    <state x="1366" y="0" width="1025" height="509" key="dock-window-4" timestamp="1652355565002">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1366" y="0" width="1025" height="509" key="dock-window-4/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1652355565002" />
-    <state x="260" y="119" width="581" height="556" key="find.popup" timestamp="1653741127042">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="260" y="119" width="581" height="556" key="find.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1653741127042" />
   </component>
 </project>
