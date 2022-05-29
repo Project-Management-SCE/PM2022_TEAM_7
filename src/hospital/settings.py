@@ -87,8 +87,12 @@ AUTH_USER_MODEL = 'account.User'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'glorbpyx',
+        'USER': 'glorbpyx',
+        'PASSWORD': 'IqbuFaPm9ojM7gC6EcpN-9zrmLN0g7_z',
+        'HOST': 'tyke.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 
